@@ -34,10 +34,6 @@ public class MainActivity extends AppCompatActivity {
                                            }  else {
                                                textView.setText("You input NOT a number");
                                            }
-
-//                                          Double number = Double.parseDouble(editText.getText().toString());
-//                                          number = Math.pow(number, 2);
-//                                          textView.setText(number.toString());
                                       }
                                       public boolean checkString(String inputText) {
                                           if (inputText == null) return false;
