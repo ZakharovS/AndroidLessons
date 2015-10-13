@@ -10,7 +10,7 @@
     android:background="#FFFFFF">
 
     <TextView
-        android:text="Application for home tasks"
+        android:text="Application for calculating square numbers (Int)"
         android:textAlignment="center"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -20,18 +20,28 @@
         android:autoText="false"
         android:background="#aebef7" />
 
-    <Button
-        android:text="@string/lesson_first"
+    <TextView
+        android:text="@string/result"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/outputText"
+        android:layout_weight="0.01"
+        android:background="#faf59d" />
+
+    <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/homeTask1"
-        android:layout_weight="0.03" />
+        android:textAlignment="center"
+        android:id="@+id/inputText"
+        android:hint="Enter yor value"/>
 
     <Button
-        android:text="@string/lesson_second"
+        android:text="@string/calculate"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/homeTask2"
-        android:layout_weight="0.03" />
+        android:id="@+id/calculateButton"
+        android:layout_weight="0.11" />
+
 
 </LinearLayout>
