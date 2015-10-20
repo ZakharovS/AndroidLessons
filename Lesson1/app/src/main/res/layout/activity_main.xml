@@ -34,4 +34,11 @@
         android:id="@+id/homeTask2"
         android:layout_weight="0.03" />
 
+    <Button
+        android:text="@string/lesson_third"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/homeTask3"
+        android:layout_weight="0.03" />
+
 </LinearLayout>

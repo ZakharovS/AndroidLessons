@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">LESSONS</string>
     <string name="action_settings">Settings</string>
-    <string name="lesson_first">Lesson First </string>
-    <string name="lesson_second">Lesson Second </string>
+    <string name="lesson_first">Lesson First</string>
+    <string name="lesson_second">Lesson Second</string>
+    <string name="lesson_third">Lesson Third</string>
     <string name="result">Here will be displayed your result</string>
     <string name="calculate">Calculate</string>
 </resources>
