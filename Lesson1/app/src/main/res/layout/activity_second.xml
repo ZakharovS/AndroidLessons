@@ -1,69 +1,63 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".main"
     android:weightSum="1"
-    android:background="#FFFFFF">
+    tools:context=".main">
 
     <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/lesson_second"
-        android:textAlignment="center"
+        style="@style/mainTextView"
+        android:layout_weight="0.06"
         android:background="#aebef7"
-        android:layout_weight="0.06" />
+        android:text="@string/lesson_second" />
 
     <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/result"
         android:id="@+id/fibonacciOutputText"
+        style="@style/mainTextView"
         android:layout_weight="0.06"
         android:background="#faf59d"
-        android:textAlignment="center"/>
+        android:text="@string/result" />
 
     <EditText
-        android:layout_width="fill_parent"
+        android:id="@+id/fibonacciInputText"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter yor value for get Fibonacci"
-        android:textAlignment="center"
-        android:id="@+id/fibonacciInputText"/>
+        android:textAlignment="center" />
 
     <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Calculate Fibonacci"
-        android:textAlignment="center"
         android:id="@+id/fibonacciButton"
-        android:layout_weight="0.04" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Calculate Fibonacci"
+        android:textAlignment="center" />
 
     <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/result"
-        android:textAlignment="center"
-        android:background="#faf59d"
         android:id="@+id/factorialOutputText"
-        android:layout_weight="0.06" />
+        style="@style/mainTextView"
+        android:layout_weight="0.06"
+        android:background="#faf59d"
+        android:text="@string/result" />
 
     <EditText
-        android:layout_width="fill_parent"
+        android:id="@+id/factorialInputText"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter yor value for get Factorial"
-        android:textAlignment="center"
-        android:id="@+id/factorialInputText"/>
+        android:textAlignment="center" />
 
     <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Calculate Factorial"
-        android:textAlignment="center"
         android:id="@+id/factorialButton"
-        android:layout_weight="0.04" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Calculate Factorial"
+        android:textAlignment="center" />
 </LinearLayout>

@@ -18,18 +18,28 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".FirstActivity"
+            android:name=".lesson1.FirstActivity"
             android:label="@string/lesson_first"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name=".SecondActivity"
+            android:name=".lesson2.SecondActivity"
             android:label="@string/lesson_second"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name=".ThirdActivity"
+            android:name=".lesson3.ThirdActivity"
             android:label="@string/lesson_third"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".lesson4.FourthActivity"
+            android:label="@string/lesson_third"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".lesson5.FifthActivity"
+            android:label="@string/lesson_fifth"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 

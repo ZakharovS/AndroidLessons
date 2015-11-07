@@ -1,9 +1,29 @@
 <resources>
     <string name="app_name">LESSONS</string>
     <string name="action_settings">Settings</string>
+    <string name="action_item1">Lesson1</string>
+    <string name="action_item2">Lesson2</string>
+    <string name="action_item3">Lesson3</string>
+    <string name="action_item4">Lesson4</string>
     <string name="lesson_first">Lesson First</string>
     <string name="lesson_second">Lesson Second</string>
     <string name="lesson_third">Lesson Third</string>
+    <string name="lesson_fifth">Lesson Fifth</string>
     <string name="result">Here will be displayed your result</string>
     <string name="calculate">Calculate</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="item1">Item1</string>
+    <string name="AppForHomeTask">Application for home tasks</string>
+    <string name="hi">Hi</string>
+    <string name="FromNavigationDrawer">From Navigation Drawer</string>
+    <string name="animText">GOOOD TEXT</string>
+    <string name="animateFadeIn">Animate Fade In</string>
+    <string name="animateFadeOut">Animate Fade Out</string>
+    <string name="animateRotate">Animate Rotate</string>
+    <string name="animateBounce">Animate Bounce</string>
+    <string name="image">Image</string>
+    <string name="lesson_fourth">Lesson Fourth</string>
+    <string name="textForActivity4">Hi, this is your fourth activity</string>
+    <string name="action_item5">Lesson5</string>
 </resources>

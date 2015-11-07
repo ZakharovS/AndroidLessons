@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/animationText"
+        android:text="@string/animText"
+        android:textAlignment="center"
+        style="@style/mainTextView"/>
+
+    <Button
+        android:id="@+id/fadeInAnimationButton"
+        style="@style/mainButton"
+        android:text="@string/animateFadeIn" />
+
+    <Button
+        android:id="@+id/fadeOutAnimationButton"
+        style="@style/mainButton"
+        android:text="@string/animateFadeOut" />
+
+    <ImageView
+        android:id="@+id/imageViewArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_cached_black_48dp"
+        android:contentDescription="@string/image"/>
+
+    <Button
+        android:id="@+id/rotateAnimationButton"
+        style="@style/mainButton"
+        android:text="@string/animateRotate" />
+
+    <Button
+        android:id="@+id/bouceAnimationButton"
+        style="@style/mainButton"
+        android:text="@string/animateBounce" />
+</LinearLayout>

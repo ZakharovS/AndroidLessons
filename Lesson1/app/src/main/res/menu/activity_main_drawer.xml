@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_itemm1"
+            android:title="@string/action_item1" />
+        <item
+            android:id="@+id/action_itemm2"
+            android:title="@string/action_item2" />
+        <item
+            android:id="@+id/action_itemm3"
+            android:title="@string/action_item3" />
+        <item
+            android:id="@+id/action_itemm4"
+            android:title="@string/action_item4" />
+        <item
+            android:id="@+id/action_itemm5"
+            android:title="@string/action_item5" />
+    </group>
+
+</menu>

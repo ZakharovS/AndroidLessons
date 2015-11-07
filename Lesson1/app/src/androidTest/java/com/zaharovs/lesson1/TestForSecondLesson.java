@@ -1,5 +1,7 @@
 package com.zaharovs.lesson1;
 
+import com.zaharovs.lesson1.lesson2.SecondActivity;
+
 import junit.framework.TestCase;
 
 
