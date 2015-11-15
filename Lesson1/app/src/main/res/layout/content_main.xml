@@ -46,4 +46,9 @@
         android:id="@+id/homeTask5"
         style="@style/mainButton"
         android:text="@string/lesson_fifth" />
+
+    <Button
+        android:id="@+id/homeTask6"
+        style="@style/mainButton"
+        android:text="@string/lesson_sixth" />
 </LinearLayout>

@@ -19,6 +19,7 @@ import com.zaharovs.lesson1.lesson2.SecondActivity;
 import com.zaharovs.lesson1.lesson3.ThirdActivity;
 import com.zaharovs.lesson1.lesson4.FourthActivity;
 import com.zaharovs.lesson1.lesson5.FifthActivity;
+import com.zaharovs.lesson1.lesson6.SixthActivity;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity
         findViewById(R.id.homeTask3).setOnClickListener(clickListener);
         findViewById(R.id.homeTask4).setOnClickListener(clickListener);
         findViewById(R.id.homeTask5).setOnClickListener(clickListener);
+        findViewById(R.id.homeTask6).setOnClickListener(clickListener);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -149,6 +151,10 @@ public class MainActivity extends AppCompatActivity
                 case R.id.homeTask5:
                     Intent intent5 = new Intent(MainActivity.this, FifthActivity.class);
                     startActivity(intent5);
+                    break;
+                case R.id.homeTask6:
+                    Intent intent6 = new Intent(MainActivity.this, SixthActivity.class);
+                    startActivity(intent6);
                     break;
             }
         }
