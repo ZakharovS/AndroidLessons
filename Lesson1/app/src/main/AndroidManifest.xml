@@ -43,7 +43,12 @@
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name=".lesson6.SixthActivity"
+        android:name=".lesson6.SixthActivity"
+        android:label="@string/lesson_sixth"
+        android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".lesson6.SixthActivity2"
             android:label="@string/lesson_sixth"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>

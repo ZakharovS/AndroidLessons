@@ -27,4 +27,10 @@
     <string name="textForActivity4">Hi, this is your fourth activity</string>
     <string name="action_item5">Lesson5</string>
     <string name="lesson_sixth">Lesson Sixth</string>
+    <string name="listOfArticles">Список статей</string>
+    <string-array name="articles">
+        <item>Hello from Dog</item>
+        <item>Hi from Cat</item>
+        <item>Yeeeeeee</item>
+    </string-array>
 </resources>
